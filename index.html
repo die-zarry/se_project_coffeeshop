@@ -104,7 +104,70 @@
             </div>
           </div>
         </section>
-        <section class="Reservation" id="reservation-section"></section>
+        <section class="reservation" id="reservation-section">
+          <h1 class="reservation__tile">Book a table</h1>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="fullname" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="fullname"
+                name="fullname"
+                placeholder="Name surname"
+                required
+              />
+              <label for="number" class="form__label">Number of guests *</label>
+              <input
+                type="number"
+                class="form__input"
+                id="number"
+                name="number"
+                placeholder="1-8"
+                min="1"
+                max="8"
+                required
+              />
+              <label for="date" class="form__label">Date&time *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date"
+                name="date"
+                required
+              />
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                name="email"
+                id="email"
+                placeholder="email@email.com"
+                required
+              />
+
+              <button
+                type="submit"
+                class="form__button"
+                name="button"
+                id="button"
+              >
+                book a table
+              </button>
+
+              <input
+                type="checkbox"
+                class="form__input form__input_type_checkbox"
+                name="agreed"
+                id="agreed"
+                required
+              />
+              <label class="form__label" for="agreed">
+                I agree with the term of use</label
+              >
+            </fieldset>
+          </form>
+        </section>
         <section class="Menu" id="menu-section"></section>
         <section class="Contacts" id="contacts-section"></section>
       </main>
