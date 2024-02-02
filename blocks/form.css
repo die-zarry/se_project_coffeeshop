@@ -1,0 +1,57 @@
+.form__fieldset {
+  appearance: none;
+  padding: 80px 0 120px 0;
+}
+
+.form__label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 12px 0;
+}
+
+.form__input[type="text"],
+.form__input[type="email"],
+.form__input[type="datetime-local"],
+.form__input[type="number"] {
+  min-width: 385px;
+  min-height: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  display: block;
+  margin: 8px 0 32px 0;
+  /* margin-bottom: 32px; */
+}
+
+.form__button[type="submit"] {
+  min-width: 392px;
+  min-height: 60px;
+  background: #2f71e5;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  transition: opacity 2s;
+}
+
+.form__input[type="checkbox"] {
+  border-radius: 2px;
+  min-width: 20px;
+  min-height: 20px;
+  vertical-align: middle;
+  background-image: url("../images/check.svg");
+  /* margin-bottom: 120px; */
+  margin-right: 12px;
+}
+
+.form__fieldset:last-of-type {
+  border: none;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,39 @@
+.nav {
+  /* Add flex properties here */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 124px;
+}
+
+.nav__logo {
+  position: relative;
+  left: -50px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  /* Reset default list styles here */
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  transition: color 2s;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #2F80ED;
+}
