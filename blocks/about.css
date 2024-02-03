@@ -1,13 +1,13 @@
 .contacts {
   background-color: #0a2850;
-  padding: 100px 80px;
+  padding: 0 ;
   color: #fff;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   position: relative;
   box-sizing: border-box;
-  gap: 400px;
+  gap: 300px;
 }
 
 @keyframes pulsate {
@@ -24,7 +24,7 @@
 }
 
 .about__title {
-  margin: 0;
+  margin: 100px 0 0 80px;
   max-width: 251px;
   align-self: baseline;
   font-style: normal;
@@ -33,6 +33,7 @@
   line-height: 52px;
   color: #fff;
   z-index: 2;
+  font-family: "Inter";
 }
 
 .about__content {
@@ -55,6 +56,13 @@
   top: -152px;
   z-index: 1;
   animation: pulsate 1.3s infinite ease-in-out;
+}
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about__paragraph:last-child {

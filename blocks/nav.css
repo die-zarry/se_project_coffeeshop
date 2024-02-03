@@ -26,6 +26,8 @@
   font-size: 16px;
   line-height: 20px;
   transition: color 2s;
+  font-family: "Inter";
+  font-style: normal;
 }
 
 .nav__link {
@@ -35,5 +37,5 @@
 }
 
 .nav__link:hover {
-  color: #2F80ED;
+  color: #2f80ed;
 }

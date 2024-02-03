@@ -20,6 +20,7 @@
   letter-spacing: -0.6px;
   font-weight: 500;
   font-style: normal;
+  font-family: "Inter";
 }
 
 .header__description {
@@ -29,6 +30,7 @@
   margin: 28px 0 0;
   font-style: normal;
   font-weight: normal;
+  font-family: "Noto Serif";
 }
 
 .header__image {
@@ -54,6 +56,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  font-family: "Inter";
 }
 
 .header__link {
@@ -73,6 +76,7 @@
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
+  font-family: "Noto Serif";
 }
 
 .header__main_text {

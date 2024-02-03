@@ -5,63 +5,7 @@
 @import url("../blocks/recipes.css");
 @import url("../blocks/reservation.css");
 @import url("../blocks/form.css");
-@import url("../blocks/about.css");
-@import url("../blocks/card.css");
-@import url("../blocks/footer.css");
 @import url("../blocks/menu.css");
-
-
-
-
-
-.footer {
-  padding: 60px 80px;
-  box-sizing: border-box;
-  background-color: #0a2850;
-  color: #fff;
-  margin: 0;
-  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-}
-
-.footer__content {
-  display: flex;
-  /* justify-content: baseline; */
-  align-content: flex-start;
-  gap: 900px;
-  /* padding: 60px 80px; */
-}
-
-.footer__logo {
-  width: 105px;
-  height: 39px;
-}
-
-.footer__social-heading {
-  margin: 0 0 20px 0;
-  line-height: 20px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.footer__list {
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer__list-item {
-  font-size: 16px;
-  margin: 0 0 16px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  list-style-type: none;
-}
-
-/* .footer__social-icon {
-  margin: 0 10px 0 0;
-} */
-
-
+@import url("../blocks/card.css");
+@import url("../blocks/about.css");
+@import url("../blocks/footer.css");

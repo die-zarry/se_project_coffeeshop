@@ -1,4 +1,3 @@
-
 .reservation {
   background-color: #d9e7ff;
   margin: 0;
@@ -16,6 +15,8 @@
   padding: 100px 0 0 0;
   margin: 0 auto;
   text-align: center;
+  font-family: Inter;
+  font-style: normal;
 }
 
 .reservation__form {
