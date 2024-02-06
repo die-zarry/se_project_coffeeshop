@@ -1,5 +1,5 @@
 .footer {
-  padding:  60px 80px ;
+  padding:  60px 80px ; 
   box-sizing: border-box;
   background-color: #0a2850;
   color: #fff;
@@ -14,11 +14,15 @@
   /* align-content: flex-start; */
   gap: 900px;
   /* padding: 60px 80px; */
+  padding: 0;
+  margin: 0;
 }
 
 .footer__logo {
   width: 105px;
   height: 39px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__social-heading {

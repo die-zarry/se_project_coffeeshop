@@ -1,67 +1,63 @@
 .header {
+  /* margin: 0;
+  padding: 0; */
+  min-height: 720px;
+  max-height: 800px;
   display: flex;
   flex-direction: column;
   height: 100vh;
   max-height: 800px;
-  padding: 30px 80px 40px;
+  padding: 30px 50px 80px;
   position: relative;
   box-sizing: border-box;
   background-color: #ffffff;
   background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .header__title {
   max-width: 729px;
   font-size: 60px;
   line-height: 72px;
-  margin: 183px 0 0;
+  margin: 183px 0 0 80px;
   letter-spacing: -0.6px;
   font-weight: 500;
   font-style: normal;
   font-family: "Inter";
+  z-index: 1;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  margin: 28px 0 0;
+  margin: 28px 0 60px 80px;
   font-style: normal;
   font-weight: normal;
   font-family: "Noto Serif";
 }
 
 .header__image {
-  /* z-index: 1; */
-  /* max-width: 636px; */
   position: absolute;
-  top: -60px;
-  right: 20px;
+  top: -40px;
+  right: 10px;
   width: 646px;
   height: 568px;
   margin: 124px 5px;
-}
-
-.header__footer {
-  margin-top: auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  font-family: "Inter";
+  padding: 0;
+  z-index: 0;
+  margin-right: 5px;
 }
 
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
 
 .header__address {
@@ -83,11 +79,27 @@
   display: flex;
 }
 
-.header__paragraphs {
-  margin: 5px;
-  align-items: center;
+.header__footer {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  font-family: "Inter";
+}
+.header__paragraphs:last-child {
+  margin-bottom: 40px;
+  margin-right: 80px;
 }
 
-.header__link:hover {
-  color: #1f69c9;
+.header__paragraphs {
+  margin: 5px 0 0 80px;
+  align-self: flex-end;
+  z-index: 1;
 }

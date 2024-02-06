@@ -17,6 +17,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  font-family: "Inter";
 }
 
 .card__list-item {
@@ -27,6 +28,8 @@
   line-height: 20px;
   justify-content: space-between;
   gap: 5px;
+  font-family: "Noto Serif";
+  font-style: normal;
 }
 
 .card__list-divider {
