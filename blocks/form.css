@@ -1,6 +1,11 @@
+.form {
+  max-width: 385px;
+}
+
 .form__fieldset {
   appearance: none;
-  padding: 80px 0 120px 0;
+  padding: 0;
+  margin: 0;
 }
 
 .form__label {
@@ -8,15 +13,24 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 12px 0;
   font-family: Inter;
+  margin-bottom: 32px;
+  display: block;
+  margin: 0;
+}
+
+ .form__label_type_checkbox{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
 }
 
 .form__input[type="text"],
 .form__input[type="email"],
 .form__input[type="datetime-local"],
 .form__input[type="number"] {
-  min-width: 385px;
+  width: 100%;
   min-height: 60px;
   font-style: normal;
   font-weight: 500;
@@ -25,12 +39,12 @@
   color: #838383;
   display: block;
   margin: 8px 0 32px 0;
-  /* margin-bottom: 32px; */
+  padding: 0;
   font-family: Inter;
+  box-sizing: border-box;
 }
 
 .form__button[type="submit"] {
-  min-width: 392px;
   min-height: 60px;
   background: #2f71e5;
   color: #ffffff;
@@ -40,21 +54,24 @@
   transition: opacity 2s;
 }
 
-.form__input[type="checkbox"] {
+.form__checkbox{
   border-radius: 2px;
   min-width: 20px;
   min-height: 20px;
   vertical-align: middle;
   background-image: url("../images/check.svg");
-  /* margin-bottom: 120px; */
-  margin-right: 12px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  box-sizing: border-box;
 }
 
+.form__button {
+  width: 100%;
+  padding: 0;
+}
 .form__fieldset:last-of-type {
   border: none;
 }

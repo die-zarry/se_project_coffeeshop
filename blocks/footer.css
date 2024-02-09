@@ -1,19 +1,15 @@
 .footer {
-  padding:  60px 80px ; 
+  padding: 60px 80px;
   box-sizing: border-box;
   background-color: #0a2850;
   color: #fff;
   margin: 0;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-
 }
 
 .footer__content {
   display: flex;
-  /* justify-content: baseline; */
-  /* align-content: flex-start; */
   gap: 900px;
-  /* padding: 60px 80px; */
   padding: 0;
   margin: 0;
 }
@@ -55,6 +51,7 @@
   display: flex;
   gap: 10px;
   color: #fff;
+  transition: color 1s linear 0.5s;
 }
 
 .footer__social-link:hover {

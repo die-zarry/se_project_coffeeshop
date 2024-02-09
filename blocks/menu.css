@@ -7,7 +7,6 @@
 }
 
 .menu__title {
-  /* max-width: 780px; */
   text-align: center;
   margin: 0 0 24px;
   font-weight: 500;
@@ -18,7 +17,6 @@
 }
 
 .menu__subtitle {
-  /* max-width: 780px;  */
   text-align: center;
   margin: 0 0 100px;
   font-weight: normal;
