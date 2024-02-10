@@ -33,7 +33,7 @@
   margin: 28px 0 0 0;
   font-style: normal;
   font-weight: normal;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   z-index: 1;
 }
 
@@ -46,11 +46,6 @@
   z-index: 0;
 }
 
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
 .header__span-accent {
   display: block;
   color: #2f80ed;
@@ -58,7 +53,7 @@
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .header__footer {
@@ -73,10 +68,6 @@
   line-height: 20px;
   color: #838383;
   font-family: "Inter", Arial, sans-serif;
-}
-
-.header__paragraph:last-child {
-  margin: 0;
 }
 
 .header__paragraph {
