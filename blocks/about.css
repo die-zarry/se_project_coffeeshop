@@ -8,7 +8,6 @@
   justify-content: space-between;
   position: relative;
   box-sizing: border-box;
-  row-gap: 300px;
 }
 
 @keyframes pulsate {
@@ -19,7 +18,7 @@
     opacity: 0.6;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
     transform: scale(1.12);
   }
 }
@@ -34,7 +33,7 @@
   line-height: 52px;
   color: #fff;
   z-index: 2;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .about__content {
@@ -46,7 +45,7 @@
   color: #fff;
   z-index: 1;
   padding: 0;
-  margin: 0;
+  margin: 119px 80px 173px;
 }
 
 .about__circle {
@@ -58,8 +57,8 @@
   left: -129px;
   top: -152px;
   z-index: 1;
-  animation: pulsate 1.3s infinite ease-in-out;
 }
+
 .about__paragraph {
   font-family: "Noto Serif";
   font-style: normal;
@@ -69,6 +68,6 @@
   padding: 0;
 }
 
-.about__paragraph:last-child {
-  margin-bottom: 173px;
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s infinite ease-in-out;
 }
