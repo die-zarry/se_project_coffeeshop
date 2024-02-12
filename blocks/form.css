@@ -26,7 +26,6 @@
 }
 
 .form__input {
-  border-color: #838383;
   width: 100%;
   min-height: 60px;
   font-style: normal;
@@ -39,7 +38,6 @@
   font-family: "Inter", Arial, sans-serif;
   border: 1px solid #838383;
   border-radius: 4px;
-
 }
 
 .form__input::placeholder {
@@ -50,6 +48,7 @@
   width: 100%;
   padding: 0;
   min-height: 60px;
+  color: #ffffff;
   background: #2f71e5;
   margin-bottom: 32px;
   transition: opacity 2s;
